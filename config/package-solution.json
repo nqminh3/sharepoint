@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sharepoint-sample-web-part-client-side-solution",
+    "id": "09641167-16b8-4c3e-b616-9e6786e1e421",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sharepoint-sample-web-part description"
+      },
+      "longDescription": {
+        "default": "sharepoint-sample-web-part description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sharepoint-sample-web-part Feature",
+        "description": "The feature that activates elements of the sharepoint-sample-web-part solution.",
+        "id": "238a13f6-cbdb-4205-8942-c0a94d5946e9",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sharepoint-sample-web-part.sppkg"
+  }
+}
